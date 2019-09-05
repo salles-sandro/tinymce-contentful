@@ -50,9 +50,9 @@
         "id": "color_map",
         "type": "Symbol",
         "name": "Color Map",
-        "description": "Specify the menus to display here. To use the default menu bar, clear this field. To hide the menu, enter the value 'false'. See https://www.tiny.cloud/docs/configure/editor-appearance/#text_color",
+        "description": "Specify the colors that will be available for tex coloring",
         "required": false,
-        "default": "edit view insert format"
+        "default": "564A80:east-bay,4B3C80:victoria,241C3A:revolver,DA0159:razzmatazz,94FF53:green-yellow,F2D063:cream-can,5FA7FB:malibu,DB641D:hot-cinnamon,70CB39:atlantis,EDBC2C:fuel-yellow,1662A3:fun-blue,444444:tundora,666666:dove-gray,999999:dusty-gray,DDDDDD:alto,EEEEEE:gallery,FFFFFF:white"
       }
     ]
   }
