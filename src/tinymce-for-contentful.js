@@ -58,6 +58,7 @@ window.contentfulExtension.init(function (api) {
         }
       },
       color_map: cm,
+      custom_colors: false,
       max_height: 500,
       min_height: 300,
       autoresize_bottom_margin: 15,
