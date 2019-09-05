@@ -14,6 +14,7 @@ window.contentfulExtension.init(function (api) {
     }
 
     function formatColorMap (param) {
+      console.log(param)
       param = tweak(param)
       if (!param) return param
 
