@@ -40,10 +40,6 @@ window.contentfulExtension.init(function (api) {
       toolbar: tb,
       menubar: mb,
       menu: {
-        insert: {
-          title: 'Insert',
-          items: 'image link media'
-        },
         tools: {
           title: 'Tools',
           items: 'spellchecker spellcheckerlanguage | code wordcount'
