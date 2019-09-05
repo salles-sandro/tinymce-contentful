@@ -45,6 +45,14 @@
         "description": "Specify the menus to display here. To use the default menu bar, clear this field. To hide the menu, enter the value 'false'. See https://www.tiny.cloud/docs/configure/editor-appearance/#menubar",
         "required": false,
         "default": "edit view insert format"
+      },
+      {
+        "id": "color_map",
+        "type": "Symbol",
+        "name": "Color Map",
+        "description": "Specify the menus to display here. To use the default menu bar, clear this field. To hide the menu, enter the value 'false'. See https://www.tiny.cloud/docs/configure/editor-appearance/#text_color",
+        "required": false,
+        "default": "edit view insert format"
       }
     ]
   }
