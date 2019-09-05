@@ -39,6 +39,24 @@ window.contentfulExtension.init(function (api) {
       plugins: api.parameters.instance.plugins,
       toolbar: tb,
       menubar: mb,
+      menu: {
+        edit: {
+          title: 'Edit',
+          items: 'undo redo | cut copy paste | selectall | searchreplace'
+        },
+        insert: {
+          title: 'Insert',
+          items: 'image link media'
+        },
+        format: {
+          title: 'Format',
+          items: 'bold italic underline | forecolor | removeformat'
+        },
+        tools: {
+          title: 'Tools',
+          items: 'spellchecker spellcheckerlanguage | code wordcount'
+        }
+      },
       color_map: cm,
       max_height: 500,
       min_height: 300,
